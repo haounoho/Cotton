@@ -12,7 +12,7 @@ const STORE_KEY = "quizUnlockDemo:v2";
 
 const DATA = {
   day1: [
-    { id: "d1-a", title: "1日目：情報A", desc: "正解すると“情報A”が表示されます。", body: "<p><b>情報A</b>：ここに見せたい内容を入れます。<br>例）手順、リンク、注意点など。</p>" },
+    { id: "d1-a", title: "1日目：la bottega yossci", desc: "正解すると“情報A”が表示されます。", body: "<p><b>情報A</b>：お昼ごはんはイタリアンです。<br>https://www.bing.com/search?pglt=161&q=la+bottega+yossci&cvid=c349484973a0428a857c342b9534e883&gs_lcrp=EgRlZGdlKgYIABBFGDsyBggAEEUYOzIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQRRg9MggICBDpBxj8VTIHCAkQ6wcYQNIBCDMwNDRqMGoxqAIAsAIA&FORM=ANNAB1&PC=U531</p>" },
     { id: "d1-b", title: "1日目：情報B", desc: "正解すると“情報B”が表示されます。", body: "<p><b>情報B</b>：複数項目を持たせることも可能です。</p><ul><li>項目1</li><li>項目2</li></ul>" },
     { id: "d1-c", title: "1日目：情報C", desc: "正解すると“情報C”が表示されます。", body: "<p><b>情報C</b>：社内向けの文章や図の説明など。</p>" },
   ],
