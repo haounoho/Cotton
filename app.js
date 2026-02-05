@@ -12,7 +12,7 @@ const STORE_KEY = "quizUnlockDemo:v2";
 
 const DATA = {
   day1: [
-    { id: "d1-a", title: "1日目：お昼ごはん", desc: "正解すると“情報A”が表示されます。", body: "<p><b>情報A</b>：お昼ごはんはイタリアンです。<br>la bottega yossci <a href=\"https://tabelog.com/aichi/A2305/A230503/23093152/?msockid=3bce2742de58646f00ce3215df7a6529\ target=\"_blank\" rel=\"noopener noreferrer\">お店のページ</a></p>"},
+    { id: "d1-a", title: "1日目：お昼ごはん", desc: "正解すると“情報A”が表示されます。", body: "<p><b>情報A</b>：お昼ごはんはイタリアンです。</p>" },
     { id: "d1-b", title: "1日目：情報B", desc: "正解すると“情報B”が表示されます。", body: "<p><b>情報B</b>：複数項目を持たせることも可能です。</p><ul><li>項目1</li><li>項目2</li></ul>" },
     { id: "d1-c", title: "1日目：情報C", desc: "正解すると“情報C”が表示されます。", body: "<p><b>情報C</b>：社内向けの文章や図の説明など。</p>" },
   ],
