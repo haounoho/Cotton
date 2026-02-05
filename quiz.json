@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "qid": "q1",
+      "question": "Q. 日本で一番高い山は？",
+      "choices": [
+        "富士山",
+        "北岳",
+        "槍ヶ岳"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "qid": "q2",
+      "question": "Q. 3択クイズは選択肢がいくつ？",
+      "choices": [
+        "2つ",
+        "3つ",
+        "4つ"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "qid": "q3",
+      "question": "Q. localStorage に保存できる基本型は？",
+      "choices": [
+        "文字列",
+        "関数",
+        "DOM"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "qid": "q4",
+      "question": "Q. JSON.stringify の役割は？",
+      "choices": [
+        "文字列化",
+        "暗号化",
+        "圧縮"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "qid": "q5",
+      "question": "Q. 配列のランダム取得に使われがちな関数は？",
+      "choices": [
+        "Math.random()",
+        "Date.now()",
+        "prompt()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "qid": "q6",
+      "question": "Q. CSSで文字色を変えるプロパティは？",
+      "choices": [
+        "font-color",
+        "text-color",
+        "color"
+      ],
+      "answerIndex": 2
+    }
+  ]
+}
