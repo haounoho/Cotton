@@ -3,61 +3,61 @@
   "questions": [
     {
       "qid": "q1",
-      "question": "Q. 日本で一番高い山は？",
+      "question": "Q. ゆうくんの身長は？",
       "choices": [
-        "富士山",
-        "北岳",
-        "槍ヶ岳"
-      ],
-      "answerIndex": 0
-    },
-    {
-      "qid": "q2",
-      "question": "Q. 3択クイズは選択肢がいくつ？",
-      "choices": [
-        "2つ",
-        "3つ",
-        "4つ"
+        "152cm",
+        "181cm",
+        "330cm"
       ],
       "answerIndex": 1
     },
     {
-      "qid": "q3",
-      "question": "Q. localStorage に保存できる基本型は？",
+      "qid": "q2",
+      "question": "Q. ゆうくんの誕生日は？",
       "choices": [
-        "文字列",
-        "関数",
-        "DOM"
+        "2月9日",
+        "1月1日",
+        "3月24日"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "qid": "q3",
+      "question": "Q. ゆうくんの好きな人は？",
+      "choices": [
+        "ゆめちゃん",
+        "キティちゃん",
+        "どれみちゃん"
       ],
       "answerIndex": 0
     },
     {
       "qid": "q4",
-      "question": "Q. JSON.stringify の役割は？",
+      "question": "ゆうくんの年齢は？",
       "choices": [
-        "文字列化",
-        "暗号化",
-        "圧縮"
+        "30歳",
+        "4ちゃい",
+        "61歳"
       ],
       "answerIndex": 0
     },
     {
       "qid": "q5",
-      "question": "Q. 配列のランダム取得に使われがちな関数は？",
+      "question": "Q. ゆうくんの所属部署は？",
       "choices": [
-        "Math.random()",
-        "Date.now()",
-        "prompt()"
+        "第3技術部",
+        "技術管理室",
+        "基盤技術部"
       ],
       "answerIndex": 0
     },
     {
       "qid": "q6",
-      "question": "Q. CSSで文字色を変えるプロパティは？",
+      "question": "Q. ゆうくんの母親の名前は？",
       "choices": [
-        "font-color",
-        "text-color",
-        "color"
+        "まちこ",
+        "ちかこ",
+        "えいこ"
       ],
       "answerIndex": 2
     }
