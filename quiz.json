@@ -60,6 +60,26 @@
         "えいこ"
       ],
       "answerIndex": 2
+    },
+    {
+      "qid": "q7",
+      "question": "Q. ゆうくんが好きな食べ物は？",
+      "choices": [
+        "チモシー",
+        "ペレっと",
+        "ラーメン"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "qid": "q8",
+      "question": "Q. ゆうくんが運転している車は？",
+      "choices": [
+        "シエンタ",
+        "白バイ",
+        "はすらー"
+      ],
+      "answerIndex": 2
     }
   ]
 }
