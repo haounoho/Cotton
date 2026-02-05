@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>クイズ解除デモ</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">Quiz Unlock Demo</div>
+    <nav class="tabs">
+      <button class="tab is-active" data-route="day1">1日目</button>
+      <button class="tab" data-route="day2">2日目</button>
+      <button class="tab tab-ghost" id="resetBtn" title="デモ用：保存状態を初期化">初期化</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="screen-day1" class="screen is-active">
+      <h1>1日目</h1>
+      <p class="sub">カードをクリックすると、解除済みなら情報が見られます。未解除なら3択クイズに挑戦。</p>
+      <div id="day1Grid" class="grid"></div>
+    </section>
+
+    <section id="screen-day2" class="screen">
+      <h1>2日目</h1>
+      <p class="sub">2日目の情報は別枠で管理します（同様に解除可能）。</p>
+      <div id="day2Grid" class="grid"></div>
+    </section>
+  </main>
+
+  <!-- 情報表示モーダル -->
+  <div id="infoModal" class="modal" aria-hidden="true">
+    <div class="modal__overlay" data-close="true"></div>
+    <div class="modal__panel" role="dialog" aria-modal="true">
+      <div class="modal__head">
+        <h2 id="infoTitle"></h2>
+        <button class="iconBtn" data-close="true" aria-label="閉じる">×</button>
+      </div>
+      <div id="infoBody" class="modal__body"></div>
+      <div class="modal__foot">
+        <button class="btn" data-close="true">閉じる</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- クイズモーダル -->
+  <div id="quizModal" class="modal" aria-hidden="true">
+    <div class="modal__overlay"></div>
+    <div class="modal__panel" role="dialog" aria-modal="true">
+      <div class="modal__head">
+        <h2>3択クイズ</h2>
+        <span id="attemptsLabel" class="pill"></span>
+      </div>
+
+      <div class="modal__body">
+        <div id="quizQuestion" class="q"></div>
+        <div id="quizChoices" class="choices"></div>
+        <div id="quizFeedback" class="feedback"></div>
+      </div>
+
+      <div class="modal__foot">
+        <button id="quizCancel" class="btn btn-ghost">キャンセル</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
